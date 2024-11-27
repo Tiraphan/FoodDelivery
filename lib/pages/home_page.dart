@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:fooddelivery/widgets/best_foods_widget.dart';
 import 'package:fooddelivery/widgets/popular_foods_widget.dart';
 import 'package:fooddelivery/widgets/top_menu.dart';
 
@@ -100,6 +101,7 @@ class HomePage extends StatelessWidget {
               ),
             ),
             // Best Foods Widget here...
+            BestFoodsList(),
           ],
         ),
       ),
