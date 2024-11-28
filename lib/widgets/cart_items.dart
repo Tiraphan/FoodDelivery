@@ -68,7 +68,7 @@ class CartItem extends StatelessWidget {
                               textAlign: TextAlign.left,
                             ),
                           ),
-                          SizedBox(height: 5),
+                          SizedBox(height: 1),
                           Container(
                             child: Text(
                               price,
@@ -82,11 +82,9 @@ class CartItem extends StatelessWidget {
                           ),
                         ],
                       ),
-                      SizedBox(
-                        height: 40,
-                      ),
+                      SizedBox(height: 40),
                       Container(
-                        alignment: Alignment.centerRight,
+                        alignment: Alignment.bottomCenter,
                         child: Image.asset(
                           'assets/ic_delete.png',
                           width: 25,
